@@ -57,10 +57,10 @@ function Baby() {
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. By default it is window bound, meaning when not properly assigned it returns the window, unless in strict mode, then it will return an error(undefined)
+  2. 'this' works on objects only
+  3. implicit binding:used for objects w methods.  when the function gets invoked this is refering to whatever is to the left of the dot 
+  4. explicit binding: when the this keyword is explicitly assigned using .apply, .call, and .bind call and apply immedietly invoke said functioin. Bind creates a nef function to be called later.
 */
 
 ///////// END OF CHALLENGE /////////
